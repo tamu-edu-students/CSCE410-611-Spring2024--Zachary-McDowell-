@@ -19,8 +19,6 @@ more_movies = [
     :release_date => '19-Feb-2021'},
   {:title => 'CODA', :rating => 'PG-13',
     :release_date => '13-Aug-2021'}
-  {:title => 'Nach Libre', :rating => 'PG',
-    :release_date => '2006'}
 ]
 
 more_movies.each do |movie|
