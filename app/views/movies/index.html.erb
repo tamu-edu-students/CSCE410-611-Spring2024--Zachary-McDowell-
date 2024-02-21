@@ -10,6 +10,17 @@
     <th>Release Date</th>
     </tr>
   </thead>
+
+  <div id="movies">
+    <% @movies.each do |movie| %>
+      <tr>
+        <%= movie.title %>
+        <%= movie.rating %>
+        <%= movie.release_date %>
+      </tr>
+    <% end %>
+  </div>
+
 </table>
 
 
