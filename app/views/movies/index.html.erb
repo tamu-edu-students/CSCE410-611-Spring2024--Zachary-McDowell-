@@ -1,6 +1,16 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>MoviesZ</h1>
+<h1>Movies</h1>
+
+<table>
+  <thead>
+    <tr>
+    <th>Title</th>
+    <th>Rating</th>
+    <th>Release Date</th>
+    </tr>
+  </thead>
+</table>
 
 <div id="movies">
   <% @movies.each do |movie| %>
